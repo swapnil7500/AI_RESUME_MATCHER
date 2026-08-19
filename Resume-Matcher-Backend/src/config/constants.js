@@ -1,4 +1,4 @@
-export const DB_NAME = "resumematcher";
+export const DB_NAME = "ResumeMatcher";
 
 // OpenAI model used for resume-vs-JD scoring
 export const AI_MODEL = "gemini-1.5-flash";
