@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #14181f;
+  --color-paper: #f7f8fa;
+  --color-signal: #2f6fed;
+  --color-coral: #f0553d;
+  --color-mint: #1fae7a;
+  --color-slate: #6b7280;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
